@@ -8,5 +8,4 @@ git remote set-url origin "https://git-sync-token:$GIT_TOKEN@github.com/devather
 ./gradlew test --tests '*SyncGitReposDockerSpec*' -x jacocoTestCoverageVerification
 exit_code=$?
 cd ..
-rm -rf git-sync-test
 exit $exit_code
